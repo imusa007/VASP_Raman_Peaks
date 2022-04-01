@@ -1,0 +1,29 @@
+ SYSTEM =GeC.SiC.hetrostructure                          
+
+ Startparameter for this Run:
+   NWRITE =      2;   LPETIM=F    write-flag & timer
+   ISTART =      0    job   : 0-new  1-cont  2-samecut
+   PREC = Medium 
+   IALGO = 48
+   ICHARG =      2    charge: 1-file 2-atom 10-const
+   LCHARG   =  .FALSE.
+   LWAVE = .FALSE.
+   LEFL = .TRUE.
+   IVDW = 11  
+
+ Electronic Relaxation 1
+   EDIFF  =   1E-04   stopping-criterion for ELM
+   LREAL  =      T    real-space projection
+
+
+ Ionic relaxation
+   EDIFFG = 0.1E-03   stopping-criterion for IOM
+   NSW    =    1    number of steps for IOM
+   IBRION =    5     Hessian matrix
+   NFREE = 2
+   POTIM = 0.4       step size
+   ISYM   = 0
+   LPLANE = .TRUE.
+   NPAR = 4
+
+
