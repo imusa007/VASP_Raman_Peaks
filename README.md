@@ -13,7 +13,7 @@ This Repo is created based on https://github.com/raman-sc/VASP repo. please visi
 1) git clone git@github.com:imusa007/VASP_Raman_Peaks.git
 2) virtualenv venv
 3) source venv/bin/activate
-4) pip install .
+4) pip install --editable .
 
 # Uses
 ---------------
